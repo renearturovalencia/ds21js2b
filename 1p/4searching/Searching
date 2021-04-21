@@ -1,7 +1,7 @@
 function aleatorio()
 {
-  let letra;
-  return letra=String.fromCharCode((Math.floor(1+(Math.random()*26)))+64)+String.fromCharCode((Math.floor(1+(Math.random()*26)))+64)+String.fromCharCode((Math.floor(1+(Math.random()*26)))+64)+String.fromCharCode((Math.floor(1+(Math.random()*26)))+64);
+	let letra;
+ 	return letra=String.fromCharCode((Math.floor(1+(Math.random()*26)))+64)+String.fromCharCode((Math.floor(1+(Math.random()*26)))+64)+String.fromCharCode((Math.floor(1+(Math.random()*26)))+64)+String.fromCharCode((Math.floor(1+(Math.random()*26)))+64);
 }   
 let d=[];
 for(i=0;i<5;i++)  
