@@ -4,16 +4,16 @@ function mcm()
 {
 	while(primos<=a || primos<=b)
 	{
-  	if(a%primos==0 || b%primos==0)
-  	{
-    	mcmr*=primos;
-    	if(a%primos==0)
-      	a/=primos;
-    	if(b%primos==0)
-      	b/=primos;
-  	}
-  	else primos++;
+  		if(a%primos==0 || b%primos==0)
+  		{
+    			mcmr*=primos;
+    			if(a%primos==0)
+      				a/=primos;
+    			if(b%primos==0)
+      				b/=primos;
+  		}
+  		else primos++;
 	}
-return mcmr;
+	return mcmr;
 }
 console.log("El mínimo Común Múltiplo de "+a+" y "+b+" es "+mcm());
