@@ -1,0 +1,7 @@
+function aleatorio()
+{
+  let n=Math.random()*10;
+  return Math.floor(1+n);
+}
+let n=aleatorio();  
+console.log(1-n);  
