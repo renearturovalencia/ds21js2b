@@ -7,19 +7,19 @@ let d=[];
 for(x=0;x<8;x++)
 {
 	let na=aleatorio();
-  d[x]=na;
+	d[x]=na;
 }
 console.log("Números aleatorios: "+d);
 for (k = 1; k < d.length; k++) 
 {
 	for (i = 0; i < d.length - k; i++) 
-  {
-  	if (d[i] > d[i + 1]) 
-    {
-    	aux = d[i];
-      d[i] = d[i + 1];
-      d[i + 1] = aux;
-    }
-  }
+	{
+  		if (d[i] > d[i + 1]) 
+		{
+    			aux = d[i];
+      			d[i] = d[i + 1];
+      			d[i + 1] = aux;
+    		}
+  	}
 }
 console.log("Núneros aleatorios ordenados(bubble): "+d);
