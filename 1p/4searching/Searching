@@ -9,6 +9,6 @@ for(i=0;i<5;i++)
 let k=prompt("Ingresa nombre a buscar de "+d+":");
 let found = d.find(element => element == k );
 if(!found)
-	document.write("-1");  
+	console.log("-1");  
 else
-	document.write("El número "+k+"<br>Se encuentra en la posición: "+d.indexOf(found));
+	console.log("El número "+k+"<br>Se encuentra en la posición: "+d.indexOf(found));
