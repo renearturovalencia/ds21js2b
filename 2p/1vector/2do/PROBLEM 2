@@ -1,0 +1,5 @@
+let vec=['2','3','4']; 
+let p=parseFloat(prompt("¿En que posición quieres eliminar el numero?\n"+"Números: "+vec));
+console.log("Forma original: "+vec);
+vec.splice(p,1);
+console.log("Modificado: "+vec);
