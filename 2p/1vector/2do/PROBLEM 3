@@ -1,0 +1,5 @@
+let v=parseFloat(prompt("Ingresa el valor"));
+let vec=['1','2','3'];
+console.log("Forma original: "+vec);
+vec.unshift(v);
+console.log("Modificado: "+vec);
