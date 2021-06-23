@@ -1,0 +1,4 @@
+let vec=['1','2','3'];
+console.log("Forma original: "+vec);
+vec.pop();
+console.log("Modificado: "+vec);
