@@ -1,0 +1,28 @@
+let m;	
+do{
+m=parseInt(prompt("PILA \n Selecciona un valor del menú: \n 1.Agregar \n 2.Eliminar \n 3.Vaciar \n 4.Salir"));	
+let v;
+if(m===1)
+v=prompt("Pon un valor");
+let i=["1","2","3"],a;
+if(i=="" && m!=1){
+	document.write("La pila esta vacía");
+}
+else{
+switch(m){
+case 1:
+    i.push(v);
+    alert(i);
+break;
+case 2:
+    i.pop();
+    alert(i);
+break;
+case 3:
+	a=i.length;
+	i.splice(0,a);
+	alert(" La pila esta vacía");
+break;
+}
+}
+}while((m<4))
