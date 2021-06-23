@@ -1,0 +1,6 @@
+let p=parseFloat(prompt("¿En que posición quieres colocar el numero?"));
+let v=parseFloat(prompt("Ingresa el número"));
+let vec=['2','3','4'];
+console.log("Forma original: "+vec);
+vec.splice(p,1,v);
+console.log("Modificado"+vec);
