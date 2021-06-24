@@ -1,0 +1,5 @@
+var i = 10;
+console.log("Forma base: "+ i );
+console.log("Forma binaria: "+ i.toString(2) );
+console.log("Forma octal: "+ i.toString(8) );
+console.log( "Forma hexadecimal: "+i.toString(16) );
