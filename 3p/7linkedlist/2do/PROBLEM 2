@@ -1,0 +1,25 @@
+class  linkedlist
+{
+  constructor()
+  {
+    this.a_link=[];
+    this.inicio=0;
+    this.final=0;
+  }
+  insert(dato)
+  {
+    this.a_link[this.final]= dato;
+    this.final++;
+  } 
+  size()
+  {
+    return this.final - this.inicio;
+  }
+}
+let Linkedlist= new linkedlist();
+Linkedlist.insert("A");
+Linkedlist.insert("B");
+Linkedlist.insert("C");
+Linkedlist.insert("D");  
+console.log(Linkedlist);
+console.log(Linkedlist.size());
